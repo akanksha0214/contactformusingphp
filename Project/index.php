@@ -65,7 +65,7 @@ body{
                     ?>
                 </span>
             </div>
-            <br>
+        
             <div class="single-form">
                 <label>Subject</label>
                 <input type="text" name="subject" placeholder="Your Subject" value="<?php if(isset($subject)) echo $subject; ?>">
@@ -77,7 +77,7 @@ body{
                     ?>
                 </span>
             </div>
-            <br>
+            
             <div class="single-form">
                 <label>Email</label>
                 <input type="email" name="email" placeholder="Your Email" value="<?php if(isset($email)) echo $email; ?>">
@@ -89,7 +89,7 @@ body{
                     ?>
                 </span>
             </div>
-            <br>
+            
             <div class="single-form">
                 <label>Message</label>
                 <textarea name="message" placeholder="Your Message" value="<?php if(isset($message)) echo $message; ?>"></textarea>
@@ -101,7 +101,7 @@ body{
                     ?>
                 </span>
             </div>
-            <br>
+            
             <div class="single-form">
                 <label>Mobile Number</label>
                 <textarea name="number" placeholder="Your Number" value="<?php if(isset($number)) echo $number; ?>"></textarea>
@@ -113,7 +113,7 @@ body{
                     ?>
                 </span>
             </div>
-            <br>
+            
             <div class="single-form">
                 <input type="submit" value="Send Message" name="btn">
             </div>
